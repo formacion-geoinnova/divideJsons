@@ -26,10 +26,7 @@
             <img alt="JSON" width="300px" src="https://byspel.com/wp-content/uploads/2017/06/JSON-Logo.png">
         </div>
         
-        
-       
-        
-      
+
 
         <div class="mx-auto">
             <form action="upload.php" method="post" enctype="multipart/form-data">
@@ -38,7 +35,7 @@
                     <span class="mx-auto">
                         <input type="file" class="form-control-file text-center" id="jsons[]" name="jsons[]" multiple accept=".json">
                     </span>
-                    <input type="submit" value="Procesar" name="uploadBtn" class=" btn btn-primary  mt-2" >
+                    <input type="submit" value="Procesar" name="uploadBtn" class=" btn btn-primary pl-4 pr-4 mt-2" >
                 </div>
             </form>
         </div>
